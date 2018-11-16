@@ -11,19 +11,19 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AddField(
-            model_name='movieinfo',
+            model_name='MovieInfo',
             name='movie_details',
             field=models.TextField(default=' ', max_length=200),
             preserve_default=False,
         ),
         migrations.AddField(
-            model_name='movieinfo',
+            model_name='MovieInfo',
             name='movie_release_date',
             field=models.CharField(default=' ', max_length=35),
             preserve_default=False,
         ),
         migrations.AddField(
-            model_name='movieinfo',
+            model_name='MovieInfo',
             name='movie_type',
             field=models.CharField(default=' ', max_length=200),
             preserve_default=False,
